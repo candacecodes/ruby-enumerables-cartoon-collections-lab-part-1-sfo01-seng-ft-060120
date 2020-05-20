@@ -14,7 +14,7 @@ def list_dwarves(array)
   characters = array 
   total = 0 
   i = 1 
-  characters.each do | num | 
+  characters.each_with_index do | num | 
     puts "#{[i]}. #{characters[total]}"
     total += 1 
     i += 1
