@@ -18,5 +18,5 @@ def list_dwarves(array)
     puts "#{[i]}. #{characters[total]}"
   end 
     total += 1 
-    index += 1
+    i += 1
 end 
