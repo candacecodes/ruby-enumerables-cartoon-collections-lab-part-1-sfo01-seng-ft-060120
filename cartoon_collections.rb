@@ -16,6 +16,7 @@ def list_dwarves(array)
   index = 1 
   characters.each do | list | 
     puts "#{[index]}. #{characters[total]}"
+  end 
     total += 1 
     index += 1
 end 
