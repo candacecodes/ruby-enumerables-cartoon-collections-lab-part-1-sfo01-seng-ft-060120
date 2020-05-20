@@ -11,11 +11,6 @@ end
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   # Print a numbered list of each element
-  characters = array 
   total = 0 
-  i = 1 
-  characters.each_with_index do | num | 
-    puts "#{[i]}. #{characters[total]}"
-    total += 1 
-    i += 1
+(array).each_with_index { total, index
   end 
