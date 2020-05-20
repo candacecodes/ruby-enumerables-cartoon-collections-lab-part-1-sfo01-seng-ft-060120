@@ -19,4 +19,3 @@ def list_dwarves(array)
   end 
     total += 1 
     i += 1
-end
