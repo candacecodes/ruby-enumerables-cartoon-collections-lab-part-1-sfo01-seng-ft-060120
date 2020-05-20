@@ -13,9 +13,9 @@ def list_dwarves(array)
   # Print a numbered list of each element
   characters = array 
   total = 0 
-  index = 1 
-  characters.each do | list | 
-    puts "#{[index]}. #{characters[total]}"
+  i = 1 
+  characters.each do | num | 
+    puts "#{[i]}. #{characters[total]}"
   end 
     total += 1 
     index += 1
